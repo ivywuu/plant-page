@@ -1,0 +1,86 @@
+/*<---Global--->*/
+li{
+  list-style-type: none;
+}
+/*<-x-Global-x->*/
+
+/*<---Navigation Bar--->*/
+
+.pages a{
+  text-decoration: none;
+  padding: 2em 2.5em;
+  color: black;
+  font-size: large;
+}
+
+.logo a{
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+a:hover  {
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 1em;
+  text-decoration-color: green;
+  text-decoration-thickness: 3px;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  padding: 2.24em 2.5em;
+}
+
+.pages{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*<-x-Navigation Bar-x->*/
+
+/*<---Hamburger--->*/
+
+/*<-x-Hamburger-x->*/
+
+/*<---Footer--->*/
+.footer{
+  background-color: #aaffa8;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer div{
+  display:inline-block;
+  /* padding: 18px; */
+}
+
+.footerHeading{
+  text-align: center;
+}
+
+.footerHeading h2{
+  font-size: xx-large;
+}
+
+.footerHeading p{
+  font-size: small;
+}
+
+.ripColumn{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* To align vertically, if needed */
+}
+
+
+.ripColumn ul{
+  display: inline-block;  
+  /* display: table; */
+  margin: 0 auto;
+}
+
+
+/*<-x-Footer-x->*/

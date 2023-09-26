@@ -1,0 +1,29 @@
+
+/* headlines with lines */
+h1{
+  overflow: hidden;
+  text-align: center;
+}
+
+h1 > span{
+ position: relative;
+ display: inline-block;
+}
+
+h1 > span:before, h1 > span:after{
+ content: '';
+ position: absolute;
+ top: 50%;
+ border-bottom: 0.15em solid;
+ width: 100vw;
+ margin: 0 0.5em;
+ color: brown;
+}
+
+h1 > span:before{
+ right: 100%;
+}
+
+h1 > span:after{
+ left: 100%;
+}
