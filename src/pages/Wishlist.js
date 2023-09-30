@@ -7,6 +7,8 @@ function Wishlist() {
       <h1 className="centerTitle">
         <span>Wishlist</span>
       </h1>
+
+      <body></body>
     </div>
   );
 }

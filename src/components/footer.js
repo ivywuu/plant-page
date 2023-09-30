@@ -5,33 +5,21 @@ function footer() {
   return (
     <div className="footer">
       <footer>
-        <div className="footerHeading">
+        <div className="footerContainer">
           <h2>Ivy's Plants</h2>
           <p>Adopting plants since 2023</p>
         </div>
 
-        <div className="ripColumn">
+        <div className="footerContainer">
           <h3>RIP</h3>
-          <ul>
-            <li>
-              <p>Mini-Cucumber</p>
-            </li>
-            <li>
-              <p>Roma Tomato</p>
-            </li>
-            <li>
-              <p>Mexican Key Lime Tree</p>
-            </li>
-          </ul>
+          <p>Mini-Cucumber</p>
+          <p>Roma Tomato</p>
+          <p>Mexican Key Lime Tree</p>
         </div>
 
-        <div className="favouritesColumn">
+        <div className="footerContainer">
           <h3>Current Favourites</h3>
-          <ul>
-            <li>
-              <p>Grape Tomato</p>
-            </li>
-          </ul>
+          <p>Grape Tomato</p>
         </div>
       </footer>
     </div>

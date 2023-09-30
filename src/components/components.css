@@ -46,41 +46,24 @@ a:hover  {
 /*<-x-Hamburger-x->*/
 
 /*<---Footer--->*/
-.footer{
-  background-color: #aaffa8;
-  text-align: center;
-  margin-top: auto;
-}
-
-.footer div{
-  display:inline-block;
-  /* padding: 18px; */
-}
-
-.footerHeading{
-  text-align: center;
-}
-
-.footerHeading h2{
-  font-size: xx-large;
-}
-
-.footerHeading p{
-  font-size: small;
-}
-
-.ripColumn{
+footer{
+  background-color: #DAF7A6;
+  /* flex-grow: 1; */
   display: flex;
-  justify-content: center;
-  align-items: center; /* To align vertically, if needed */
+  flex-direction: row;     /* make main axis horizontal (default setting) */
+  justify-content: center; /* center items horizontally, in this case */
 }
 
 
-.ripColumn ul{
-  display: inline-block;  
-  /* display: table; */
-  margin: 0 auto;
+.footerContainer {
+  text-align: center;
+  display: inline-block;
+  padding: 0 6%;
 }
+
+
+
+
 
 
 /*<-x-Footer-x->*/

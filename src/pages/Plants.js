@@ -7,6 +7,8 @@ function Plants() {
       <h1 className="centerTitle">
         <span>Plants</span>
       </h1>
+
+      <body></body>
     </div>
   );
 }

@@ -27,3 +27,9 @@ h1 > span:before{
 h1 > span:after{
  left: 100%;
 }
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

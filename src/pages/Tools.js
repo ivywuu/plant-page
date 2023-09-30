@@ -7,6 +7,8 @@ function Tools() {
       <h1 className="centerTitle">
         <span>Tools</span>
       </h1>
+
+      <body></body>
     </div>
   );
 }
