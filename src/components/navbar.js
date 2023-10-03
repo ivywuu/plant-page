@@ -8,24 +8,14 @@ function Navbar() {
     <nav>
       <div>
         <div className="logo">
-          <NavLink to="/">
-            <li>Ivy's Plants</li>
-          </NavLink>
+          <NavLink to="/">Ivy's Plants</NavLink>
         </div>
 
         <div className="pages">
-          <NavLink to="/about">
-            <li>About</li>
-          </NavLink>
-          <NavLink to="/plants">
-            <li>Plants</li>
-          </NavLink>
-          <NavLink to="/wishlist">
-            <li>Wishlist</li>
-          </NavLink>
-          <NavLink to="/tools">
-            <li>Tools</li>
-          </NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/plants">Plants</NavLink>
+          <NavLink to="/wishlist">Wishlist</NavLink>
+          <NavLink to="/tools">Tools</NavLink>
         </div>
       </div>
 
