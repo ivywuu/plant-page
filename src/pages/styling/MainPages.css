@@ -1,5 +1,6 @@
 
 /* headlines with lines */
+
 h1{
   overflow: hidden;
   text-align: center;
@@ -34,9 +35,6 @@ body{
   flex-direction: column;
 }
 
-p{
-  margin: 0 10%;
-}
 
 ul{
   text-align: left;
@@ -45,7 +43,6 @@ ul{
 
 .plantSummaryTable {
   border-collapse: collapse;
-  margin: 0 15%;
   height: 13em;
 }
 
@@ -60,3 +57,22 @@ td{
 .berries, .flowers{
   background-color: #a0dd83;
 }
+
+
+.aboutImg img{
+  width: 100%;
+  height: auto;
+}
+
+
+.aboutContainer{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.aboutBlock{
+  width: 45%;
+}
+
+
